@@ -7,6 +7,9 @@
  */
 
 // Your code :
+function id(prout){
+    return(prout)
+}
 
 //* Begin of tests
 const assert = require('assert')
