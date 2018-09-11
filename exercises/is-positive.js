@@ -8,6 +8,15 @@
  */
 
 // Your code:
+function isPositive(Nombre){
+    let Nombre = true;
+    if(Nombre > 0){
+        return Nombre;
+    } else {
+       Nombre = false;
+        return Nombre;
+    }
+}
 
 
 //* Begin of tests
