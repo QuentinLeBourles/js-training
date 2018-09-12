@@ -5,7 +5,13 @@
  * and return the total
  *
  */
+let numbers = [""]
+let result = 0
 
+function total(number){
+    result = total + numbers
+}
+return result
 
 //* Begin of tests
 const assert = require('assert')

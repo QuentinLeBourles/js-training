@@ -9,7 +9,23 @@
  */
 
 // Your code :
-
+function multiply(a,b){
+    let i=0
+    let result=0
+    if(b>0){
+    while (i<b){
+        result += a;
+        i +=1;
+    }
+}
+    if(b<0){
+    while (i>b){
+        result -= a;
+        i -=1;
+    }
+}
+return result
+}
 //* Begin of tests
 const assert = require('assert')
 
@@ -25,4 +41,4 @@ assert.strictEqual(multiply(0, 0), 0)
 assert.strictEqual(multiply(123, -22), -2706)
 assert.strictEqual(multiply(-22, 123), -2706)
 assert.strictEqual(multiply(-22, -123), 2706)
-// End of tests */
+// 

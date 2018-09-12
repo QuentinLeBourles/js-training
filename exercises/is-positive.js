@@ -1,5 +1,6 @@
 'use strict'
 
+const newLocal = false;
 /*
  * Create a `isPositive` function that takes a number as
  * parameter and return true if the given number is
@@ -8,13 +9,11 @@
  */
 
 // Your code:
-function isPositive(Nombre){
-    let Nombre = true;
-    if(Nombre > 0){
-        return Nombre;
+function isPositive(nombre) {
+    if(nombre > 0){
+        return true;
     } else {
-       Nombre = false;
-        return Nombre;
+        return false;
     }
 }
 
