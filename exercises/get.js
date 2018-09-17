@@ -16,7 +16,10 @@ const sourceObject = {
 }
 
 // Your code :
-
+function get(t) {
+  let result = sourceObject[t];
+  return result
+}
 //* Begin of tests
 const assert = require('assert')
 
